@@ -1,0 +1,1107 @@
+[
+ {
+  "peerId": "983e9de990b9ac8d36d373db5d0b49a4d7f7d826",
+  "displayName": "GesundAI",
+  "services": [
+   {
+    "provider": "openai-responses",
+    "service": "gpt-6-luna",
+    "inputUsdPerMillion": 0.08,
+    "outputUsdPerMillion": 0.15,
+    "cachedInputUsdPerMillion": 0.008,
+    "categories": [
+     "chat",
+     "code",
+     "reasoning",
+     "multimodal"
+    ],
+    "apiProtocols": [
+     "openai-responses"
+    ],
+    "paid": true,
+    "freeTier": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794760143632,
+     "source": "traffic",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "performance": {
+     "requests": 147,
+     "successRate": 1,
+     "firstTokenMsP50": 1614,
+     "firstTokenMsP90": 6130,
+     "tokensPerSecondP50": 57
+    }
+   }
+  ],
+  "trustScore": 98.42456631058533,
+  "reputationScore": 98.42456631058533,
+  "verified": false,
+  "verificationLinks": [],
+  "tee": false,
+  "teeScope": null,
+  "stakeAnts": "890305.4666040959",
+  "agentId": 87124,
+  "freeTier": null,
+  "usageShareBps": 3059,
+  "washFlagged": false,
+  "trustBreakdown": {
+   "usage": 27.868849542644597,
+   "power": 66.77015652522591,
+   "identity": null,
+   "freeModels": null,
+   "verification": {
+    "multiplierBps": 10400,
+    "sameCount": 2,
+    "diffCount": 0,
+    "change": 3.7855602427148227
+   }
+  },
+  "sameServices": [
+   "gpt-6-astra",
+   "gpt-6.1-sol"
+  ],
+  "verificationUrls": {
+   "gpt-6-astra": "https://antscan.co/verification-service/87124~0xbb0866ea2c1fda8ac73deefbdc2c4b2aa2fc8a70096ecfe6da5a6178cbff97ea",
+   "gpt-6.1-sol": "https://antscan.co/verification-service/87124~0x77fa6dbc80075e8da6471bdc8e17974ef31532c699dbf7e8a41436f586878130"
+  },
+  "lastSeen": 1794760147561,
+  "health": {
+   "failureStreak": 0,
+   "coolingDownUntil": null
+  },
+  "latencyMsP50": 9903,
+  "firstTokenMsP50": 2839,
+  "tokensPerSecondP50": 115.3,
+  "requests24h": 1256
+ },
+ {
+  "peerId": "73b4c9335fa239f9c6df3d28d5bf5d3cdf4de736",
+  "displayName": "Apex Ant",
+  "services": [
+   {
+    "provider": "openai",
+    "service": "grok-4.7",
+    "inputUsdPerMillion": 1.95,
+    "outputUsdPerMillion": 5.86,
+    "cachedInputUsdPerMillion": 0.49,
+    "categories": [
+     "chat",
+     "coding",
+     "reasoning",
+     "long-context",
+     "agents",
+     "premium",
+     "multimodal"
+    ],
+    "apiProtocols": [
+     "openai-chat-completions"
+    ],
+    "paid": true,
+    "freeTier": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759790581,
+     "source": "traffic",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "performance": {
+     "requests": 1,
+     "successRate": 1,
+     "firstTokenMsP50": null,
+     "firstTokenMsP90": null,
+     "tokensPerSecondP50": null
+    },
+    "modelCheck": {
+     "verdict": "same",
+     "auditUrl": "https://antscan.co/verification-service/52894~0x8a9336b8ab23c98f75fa11cd315e06d8b5b9964332d9c843baaa258b26a559a2"
+    }
+   },
+   {
+    "provider": "openai",
+    "service": "gpt-6-luna",
+    "inputUsdPerMillion": 0.06,
+    "outputUsdPerMillion": 0.31,
+    "cachedInputUsdPerMillion": 0.006,
+    "categories": [
+     "chat",
+     "reasoning",
+     "premium",
+     "frontier",
+     "vision",
+     "multimodal",
+     "long-context",
+     "research",
+     "coding",
+     "agents",
+     "tasks",
+     "tools",
+     "structured",
+     "writing",
+     "study",
+     "finance",
+     "legal"
+    ],
+    "apiProtocols": [
+     "openai-chat-completions"
+    ],
+    "paid": true,
+    "freeTier": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759659748,
+     "source": "traffic",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "performance": {
+     "requests": 19,
+     "successRate": 1,
+     "firstTokenMsP50": 4605,
+     "firstTokenMsP90": 10859,
+     "tokensPerSecondP50": 19237
+    }
+   }
+  ],
+  "trustScore": 83.50287969117717,
+  "reputationScore": 83.50287969117717,
+  "verified": true,
+  "verificationLinks": [
+   {
+    "kind": "domain",
+    "label": "apex-ant.net",
+    "href": "https://apex-ant.net"
+   },
+   {
+    "kind": "github",
+    "label": "@ant-apex/apex-ant-verification",
+    "href": "https://github.com/ant-apex/apex-ant-verification"
+   }
+  ],
+  "tee": false,
+  "teeScope": null,
+  "stakeAnts": "107902.1691210732",
+  "agentId": 52894,
+  "freeTier": {
+   "base": {
+    "maxRequestsPerAddress": 100,
+    "maxRequestsPerIp": 150,
+    "windowMs": 86400000,
+    "stakersOnly": true
+   },
+   "stakeTiers": [
+    {
+     "minPower": 52000,
+     "multiplier": 1
+    },
+    {
+     "minPower": 520000,
+     "multiplier": 5
+    },
+    {
+     "minPower": 2600000,
+     "multiplier": 20
+    },
+    {
+     "minPower": 10400000,
+     "multiplier": "unlimited"
+    }
+   ]
+  },
+  "usageShareBps": 659,
+  "washFlagged": false,
+  "trustBreakdown": {
+   "usage": 21.227668368089805,
+   "power": 43.071205170826964,
+   "identity": {
+    "score": 0.2868595370641982,
+    "kind": "domain"
+   },
+   "freeModels": 5,
+   "verification": {
+    "multiplierBps": 12000,
+    "sameCount": 12,
+    "diffCount": 1,
+    "change": 13.917146615196202
+   }
+  },
+  "sameServices": [
+   "claude-fable-5.1",
+   "claude-opus-5.5",
+   "claude-sonnet-5.5",
+   "deepseek-v4-pro",
+   "gemini-3.1-pro-preview",
+   "gemini-4-argon",
+   "glm-5.3",
+   "gpt-6-astra",
+   "gpt-6.1-sol",
+   "grok-4.7",
+   "kimi-k3",
+   "kimi-k3-1-pro"
+  ],
+  "verificationUrls": {
+   "claude-fable-5.1": "https://antscan.co/verification-service/52894~0xb35f7f3e1358a478aea66437dcdbb1bccdec278c8024e1e7b0b734f3f9900d68",
+   "claude-opus-5.5": "https://antscan.co/verification-service/52894~0x402880900fb130dfc58962c8fc98181a3722a64f6e070086225b602d76c08c40",
+   "claude-sonnet-5.5": "https://antscan.co/verification-service/52894~0x0bc7b380e222ef661416caece4ad0ba76698442e5384b5e9d4830d7c2105d5c9",
+   "deepseek-v4-pro": "https://antscan.co/verification-service/52894~0xe2d8cc253b1637cb88e735e21e853332e155a07e7eb2e79fd444670708d03748",
+   "gemini-3.1-pro-preview": "https://antscan.co/verification-service/52894~0x09b2bb1fb18d294015241ee3477d97aeccdc715875c3a71d12586b39dbaf6e19",
+   "gemini-4-argon": "https://antscan.co/verification-service/52894~0x0ef1da3a09b0dc93c8ffbd91f0d6d94f6f0d699b81fdda97f201c0011de70689",
+   "glm-5.3": "https://antscan.co/verification-service/52894~0x1125a5e4cc6d2592878c0498f3e69b293bc43718b5b92377c10c1f3defb7d1ba",
+   "gpt-6-astra": "https://antscan.co/verification-service/52894~0xbb0866ea2c1fda8ac73deefbdc2c4b2aa2fc8a70096ecfe6da5a6178cbff97ea",
+   "gpt-6.1-sol": "https://antscan.co/verification-service/52894~0x77fa6dbc80075e8da6471bdc8e17974ef31532c699dbf7e8a41436f586878130",
+   "grok-4.7": "https://antscan.co/verification-service/52894~0x8a9336b8ab23c98f75fa11cd315e06d8b5b9964332d9c843baaa258b26a559a2",
+   "kimi-k3": "https://antscan.co/verification-service/52894~0x1794d828b03ce15cfd703a5e17fe6faebec4954a840272348739975b4d8bd88c",
+   "kimi-k3-1-pro": "https://antscan.co/verification-service/52894~0x41cde234c568c99312bb0180d3f097b19e30e886286133bea42ec12b98399047"
+  },
+  "lastSeen": 1794760147653,
+  "health": {
+   "failureStreak": 0,
+   "coolingDownUntil": null
+  },
+  "latencyMsP50": 2661,
+  "firstTokenMsP50": null,
+  "tokensPerSecondP50": null,
+  "requests24h": 27
+ },
+ {
+  "peerId": "8564723f016e7c30684d29d704ae35303ba7b8b4",
+  "displayName": "antseed-aggregator",
+  "services": [
+   {
+    "provider": "openai",
+    "service": "gpt-6-luna",
+    "inputUsdPerMillion": 0.06255,
+    "outputUsdPerMillion": 0.315,
+    "cachedInputUsdPerMillion": 0.00621,
+    "categories": [
+     "chat",
+     "reasoning",
+     "vision",
+     "long-context",
+     "cheap"
+    ],
+    "apiProtocols": [
+     "openai-chat-completions"
+    ],
+    "paid": true,
+    "freeTier": null,
+    "health": {
+     "status": "failing",
+     "checkedAt": 1794759816091,
+     "source": "probe",
+     "failingSince": 1794638620560,
+     "consecutiveFailures": 138,
+     "reason": "upstream_error",
+     "httpStatus": null
+    }
+   }
+  ],
+  "trustScore": 5,
+  "reputationScore": 5,
+  "verified": false,
+  "verificationLinks": [],
+  "tee": false,
+  "teeScope": null,
+  "stakeAnts": "17.80260378250796",
+  "agentId": 51642,
+  "freeTier": {
+   "base": {
+    "maxRequestsPerAddress": 150,
+    "maxRequestsPerIp": 400,
+    "windowMs": 86400000
+   },
+   "stakeTiers": [
+    {
+     "minPower": 520000,
+     "multiplier": 5
+    },
+    {
+     "minPower": 2600000,
+     "multiplier": 20
+    },
+    {
+     "minPower": 10400000,
+     "multiplier": "unlimited"
+    }
+   ]
+  },
+  "usageShareBps": 0,
+  "washFlagged": false,
+  "trustBreakdown": {
+   "usage": 0,
+   "power": 0,
+   "identity": null,
+   "freeModels": 5
+  },
+  "lastSeen": 1794760147628,
+  "health": {
+   "failureStreak": 0,
+   "coolingDownUntil": null
+  },
+  "latencyMsP50": null,
+  "firstTokenMsP50": null,
+  "tokensPerSecondP50": null,
+  "requests24h": 0
+ },
+ {
+  "peerId": "948a72bfce653e3e4d8bafa9b30cf73e5fa1a000",
+  "displayName": "LLMart",
+  "services": [
+   {
+    "provider": "openai",
+    "service": "openai/gpt-6-luna",
+    "inputUsdPerMillion": 0.059999999999,
+    "outputUsdPerMillion": 0.309999999999,
+    "cachedInputUsdPerMillion": 0.018,
+    "categories": [],
+    "apiProtocols": [
+     "openai-chat-completions",
+     "openai-responses",
+     "anthropic-messages"
+    ],
+    "paid": true,
+    "freeTier": null
+   },
+   {
+    "provider": "openai",
+    "service": "x-ai/grok-4.7",
+    "inputUsdPerMillion": 1.006654999999,
+    "outputUsdPerMillion": 3.006881999999,
+    "cachedInputUsdPerMillion": 0.223701111111,
+    "categories": [],
+    "apiProtocols": [
+     "openai-chat-completions",
+     "openai-responses",
+     "anthropic-messages"
+    ],
+    "paid": true,
+    "freeTier": null,
+    "modelCheck": {
+     "verdict": "same",
+     "auditUrl": "https://antscan.co/verification-service/156017~0x80020b0a7f47131e5e9747869968345c3f373ae5b6fdceb591942f3493f417f3"
+    }
+   }
+  ],
+  "trustScore": 0,
+  "reputationScore": 0,
+  "verified": true,
+  "verificationLinks": [
+   {
+    "kind": "domain",
+    "label": "seller.lllmify.online",
+    "href": "https://seller.lllmify.online"
+   }
+  ],
+  "tee": false,
+  "teeScope": null,
+  "stakeAnts": "0",
+  "agentId": 156017,
+  "freeTier": null,
+  "usageShareBps": 0,
+  "washFlagged": false,
+  "trustBreakdown": {
+   "usage": 0,
+   "power": 0,
+   "identity": null,
+   "freeModels": null
+  },
+  "diffServices": [
+   "google/gemini-3.1-pro-preview",
+   "openai/gpt-6-astra",
+   "openai/gpt-6.1-sol",
+   "xiaomi/mimo-v2.6-pro"
+  ],
+  "sameServices": [
+   "anthropic/claude-fable-5.1",
+   "anthropic/claude-opus-5.5",
+   "anthropic/claude-sonnet-5.5",
+   "google/gemini-4-argon",
+   "minimax/minimax-m3",
+   "moonshotai/kimi-k3",
+   "moonshotai/kimi-k3.1-pro",
+   "qwen/qwen3.8-27b",
+   "x-ai/grok-4.7",
+   "z-ai/glm-5.3"
+  ],
+  "verificationUrls": {
+   "google/gemini-3.1-pro-preview": "https://antscan.co/verification-service/156017~0x94ffd5390577e69a8356e21577070523acf8be2aa88666193f777f67f96b9150",
+   "openai/gpt-6-astra": "https://antscan.co/verification-service/156017~0x6651e51306f909a9b684a0e33e3a891d2049093474d9fab5ca452df2e7f2a75c",
+   "openai/gpt-6.1-sol": "https://antscan.co/verification-service/156017~0x2e59b04a50147b2791580e082ee746c17a9e669c5f05702235334f9ab1e31cac",
+   "xiaomi/mimo-v2.6-pro": "https://antscan.co/verification-service/156017~0x5cae9966fe680021248063c078b3e12757626dc75d45d9276d89d4f5a36b6d7a",
+   "anthropic/claude-fable-5.1": "https://antscan.co/verification-service/156017~0x560591b9025d5b1c6c84c2d0f432f2bac21eed807ac0985cc17e75f0386b8221",
+   "anthropic/claude-opus-5.5": "https://antscan.co/verification-service/156017~0x7f294cca02c47bab41e70e854d8c0b3e488cb02a2cea2b6220bd8ed5c9caa439",
+   "anthropic/claude-sonnet-5.5": "https://antscan.co/verification-service/156017~0xfbd78018374ed74983c981b681a5de93bc7a43990a0f12591be855d57515f5de",
+   "google/gemini-4-argon": "https://antscan.co/verification-service/156017~0xe324d640398431859c89b9a87fde82b60046743dc56953b2a872a79d15578d7a",
+   "minimax/minimax-m3": "https://antscan.co/verification-service/156017~0x4d7d1b09d48aa713ed9c53855bbb34816eade2d20399e3a6246f4437beec1d34",
+   "moonshotai/kimi-k3": "https://antscan.co/verification-service/156017~0x9260365545288226d2adc6dd8240bc2be48b262f2890a674afc1b8344223c1c7",
+   "moonshotai/kimi-k3.1-pro": "https://antscan.co/verification-service/156017~0x143ead5f98d030ab34ca30853c36214bcf06844ed84b8f0641d977690e29e57f",
+   "qwen/qwen3.8-27b": "https://antscan.co/verification-service/156017~0xb8e564aa264209fd0b29114f72675b9219e175e7b72adc8e7f919bb3f9c71105",
+   "x-ai/grok-4.7": "https://antscan.co/verification-service/156017~0x80020b0a7f47131e5e9747869968345c3f373ae5b6fdceb591942f3493f417f3",
+   "z-ai/glm-5.3": "https://antscan.co/verification-service/156017~0x6cc954dc904d6bf2f1c308fedd093554068e88708ed27a3f644fd82e61e5d271"
+  },
+  "lastSeen": 1794760147424,
+  "health": {
+   "failureStreak": 0,
+   "coolingDownUntil": null
+  },
+  "latencyMsP50": null,
+  "firstTokenMsP50": null,
+  "tokensPerSecondP50": null,
+  "requests24h": 0
+ },
+ {
+  "peerId": "0340ebb444422b880383423177fb9681ed3a90f0",
+  "displayName": "STEYG",
+  "services": [
+   {
+    "provider": "openai",
+    "service": "gpt-6-luna",
+    "inputUsdPerMillion": 0.004,
+    "outputUsdPerMillion": 0.025,
+    "cachedInputUsdPerMillion": 0.0004,
+    "categories": [
+     "coding",
+     "reasoning",
+     "tools",
+     "agent"
+    ],
+    "apiProtocols": [
+     "openai-chat-completions"
+    ],
+    "paid": true,
+    "freeTier": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759824914,
+     "source": "traffic",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "performance": {
+     "requests": 8,
+     "successRate": 1,
+     "firstTokenMsP50": null,
+     "firstTokenMsP90": null,
+     "tokensPerSecondP50": null
+    }
+   }
+  ],
+  "trustScore": 0.4950773363197637,
+  "reputationScore": 0.4950773363197637,
+  "verified": true,
+  "verificationLinks": [
+   {
+    "kind": "domain",
+    "label": "steyg.one",
+    "href": "https://steyg.one"
+   },
+   {
+    "kind": "github",
+    "label": "@steygagency/antseed-verification",
+    "href": "https://github.com/steygagency/antseed-verification"
+   }
+  ],
+  "tee": false,
+  "teeScope": null,
+  "stakeAnts": "0",
+  "agentId": 1140269,
+  "freeTier": {
+   "base": {
+    "maxRequestsPerAddress": 1,
+    "maxRequestsPerIp": 1,
+    "windowMs": 86400000,
+    "stakersOnly": true
+   },
+   "stakeTiers": [
+    {
+     "minPower": 520000,
+     "multiplier": 5
+    },
+    {
+     "minPower": 2600000,
+     "multiplier": 20
+    },
+    {
+     "minPower": 10400000,
+     "multiplier": 50
+    }
+   ]
+  },
+  "usageShareBps": 0,
+  "washFlagged": false,
+  "trustBreakdown": {
+   "usage": 0,
+   "power": 0,
+   "identity": {
+    "score": 0.47603590030746507,
+    "kind": "domain"
+   },
+   "freeModels": null,
+   "verification": {
+    "multiplierBps": 10400,
+    "sameCount": 2,
+    "diffCount": 0,
+    "change": 0.01904143601229863
+   }
+  },
+  "sameServices": [
+   "claude-opus-5-5",
+   "claude-sonnet-5-5"
+  ],
+  "verificationUrls": {
+   "claude-opus-5-5": "https://antscan.co/verification-service/1140269~0xfba721aa8f8429a12d524b1a345a0405b256b1144c456dd7807fd85050d5c134",
+   "claude-sonnet-5-5": "https://antscan.co/verification-service/1140269~0x975f79b686758336dce91853a25e023eaea7c069b8a1fa939408920421f24ed4"
+  },
+  "lastSeen": 1794760147699,
+  "health": {
+   "failureStreak": 0,
+   "coolingDownUntil": null
+  },
+  "latencyMsP50": 2348,
+  "firstTokenMsP50": null,
+  "tokensPerSecondP50": null,
+  "requests24h": 15
+ },
+ {
+  "peerId": "b269dc2c211dfcd926222b4b2b82a731d22fb1a6",
+  "displayName": "Edith AI",
+  "services": [
+   {
+    "provider": "openai",
+    "service": "grok-4.7",
+    "inputUsdPerMillion": 1.5351,
+    "outputUsdPerMillion": 4.5986,
+    "cachedInputUsdPerMillion": 0.3854,
+    "categories": [
+     "chat",
+     "coding"
+    ],
+    "apiProtocols": [
+     "openai-chat-completions"
+    ],
+    "paid": true,
+    "freeTier": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759833196,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "modelCheck": {
+     "verdict": "diff",
+     "auditUrl": "https://antscan.co/verification-service/54037~0x8a9336b8ab23c98f75fa11cd315e06d8b5b9964332d9c843baaa258b26a559a2"
+    }
+   }
+  ],
+  "trustScore": 0,
+  "reputationScore": 0,
+  "verified": true,
+  "verificationLinks": [
+   {
+    "kind": "domain",
+    "label": "goedith.pages.dev",
+    "href": "https://goedith.pages.dev"
+   },
+   {
+    "kind": "github",
+    "label": "@edithai-ux/antseed-verification",
+    "href": "https://github.com/edithai-ux/antseed-verification"
+   }
+  ],
+  "tee": false,
+  "teeScope": null,
+  "stakeAnts": "83078.330002691",
+  "agentId": 54037,
+  "freeTier": null,
+  "usageShareBps": 0,
+  "washFlagged": false,
+  "trustBreakdown": {
+   "usage": 0,
+   "power": 40.37496970000218,
+   "identity": null,
+   "freeModels": 5,
+   "verification": {
+    "multiplierBps": 0,
+    "sameCount": 1,
+    "diffCount": 10,
+    "change": -45.37496970000218
+   }
+  },
+  "diffServices": [
+   "gemini-4-argon",
+   "gpt-6-astra",
+   "gpt-6.1-sol",
+   "grok-4.7"
+  ],
+  "sameServices": [
+   "minimax-m3"
+  ],
+  "verificationUrls": {
+   "gemini-4-argon": "https://antscan.co/verification-service/54037~0x0ef1da3a09b0dc93c8ffbd91f0d6d94f6f0d699b81fdda97f201c0011de70689",
+   "gpt-6-astra": "https://antscan.co/verification-service/54037~0xbb0866ea2c1fda8ac73deefbdc2c4b2aa2fc8a70096ecfe6da5a6178cbff97ea",
+   "gpt-6.1-sol": "https://antscan.co/verification-service/54037~0x77fa6dbc80075e8da6471bdc8e17974ef31532c699dbf7e8a41436f586878130",
+   "grok-4.7": "https://antscan.co/verification-service/54037~0x8a9336b8ab23c98f75fa11cd315e06d8b5b9964332d9c843baaa258b26a559a2",
+   "minimax-m3": "https://antscan.co/verification-service/54037~0x21ceb086e0a22acb0aa48340861f31b13d6269b4e538e6b455e24434ba18c88e"
+  },
+  "lastSeen": 1794760148158,
+  "health": {
+   "failureStreak": 0,
+   "coolingDownUntil": null
+  },
+  "latencyMsP50": null,
+  "firstTokenMsP50": null,
+  "tokensPerSecondP50": null,
+  "requests24h": 0
+ },
+ {
+  "peerId": "666e688780b9fdee5d2fe8ccafa666bb084c4666",
+  "displayName": "bartly.eth64.de",
+  "services": [
+   {
+    "provider": "openai",
+    "service": "gpt-6-luna",
+    "inputUsdPerMillion": 0.005035485,
+    "outputUsdPerMillion": 0.02517606,
+    "cachedInputUsdPerMillion": 0.000503549,
+    "categories": [
+     "chat",
+     "coding",
+     "reasoning",
+     "vision",
+     "multimodal",
+     "web-search",
+     "function-calling"
+    ],
+    "apiProtocols": [
+     "openai-chat-completions"
+    ],
+    "paid": true,
+    "freeTier": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794758597229,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    }
+   },
+   {
+    "provider": "openai",
+    "service": "grok-4-7",
+    "inputUsdPerMillion": 0.054341018,
+    "outputUsdPerMillion": 0.163023052,
+    "cachedInputUsdPerMillion": 0.01358539,
+    "categories": [
+     "chat",
+     "coding",
+     "reasoning",
+     "vision",
+     "multimodal",
+     "tools",
+     "long-context",
+     "web-search",
+     "function-calling"
+    ],
+    "apiProtocols": [
+     "openai-chat-completions"
+    ],
+    "paid": true,
+    "freeTier": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794758598656,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "modelCheck": {
+     "verdict": "same",
+     "auditUrl": "https://antscan.co/verification-service/60756~0x60982ecb41215d97930e1312372aa3389965a4785d7f43d72e38f86c67c3d9b0"
+    }
+   }
+  ],
+  "trustScore": 6.374066975791476,
+  "reputationScore": 6.374066975791476,
+  "verified": true,
+  "verificationLinks": [
+   {
+    "kind": "domain",
+    "label": "bartly.eth64.de",
+    "href": "https://bartly.eth64.de"
+   }
+  ],
+  "tee": false,
+  "teeScope": null,
+  "stakeAnts": "1.2973528147232285",
+  "agentId": 60756,
+  "freeTier": null,
+  "usageShareBps": 12,
+  "washFlagged": false,
+  "trustBreakdown": {
+   "usage": 5.31172247982623,
+   "power": 0,
+   "identity": null,
+   "freeModels": null,
+   "verification": {
+    "multiplierBps": 12000,
+    "sameCount": 10,
+    "diffCount": 0,
+    "change": 1.0623444959652462
+   }
+  },
+  "sameServices": [
+   "claude-opus-5.5",
+   "claude-sonnet-5-5",
+   "deepseek-v4-pro",
+   "glm-5.3",
+   "gpt-6-astra",
+   "gpt-6.1-sol",
+   "grok-4-7",
+   "kimi-k3",
+   "kimi-k3.1-pro",
+   "minimax-m3"
+  ],
+  "verificationUrls": {
+   "claude-opus-5.5": "https://antscan.co/verification-service/60756~0x402880900fb130dfc58962c8fc98181a3722a64f6e070086225b602d76c08c40",
+   "claude-sonnet-5-5": "https://antscan.co/verification-service/60756~0x975f79b686758336dce91853a25e023eaea7c069b8a1fa939408920421f24ed4",
+   "deepseek-v4-pro": "https://antscan.co/verification-service/60756~0xe2d8cc253b1637cb88e735e21e853332e155a07e7eb2e79fd444670708d03748",
+   "glm-5.3": "https://antscan.co/verification-service/60756~0x1125a5e4cc6d2592878c0498f3e69b293bc43718b5b92377c10c1f3defb7d1ba",
+   "gpt-6-astra": "https://antscan.co/verification-service/60756~0xbb0866ea2c1fda8ac73deefbdc2c4b2aa2fc8a70096ecfe6da5a6178cbff97ea",
+   "gpt-6.1-sol": "https://antscan.co/verification-service/60756~0x77fa6dbc80075e8da6471bdc8e17974ef31532c699dbf7e8a41436f586878130",
+   "grok-4-7": "https://antscan.co/verification-service/60756~0x60982ecb41215d97930e1312372aa3389965a4785d7f43d72e38f86c67c3d9b0",
+   "kimi-k3": "https://antscan.co/verification-service/60756~0x1794d828b03ce15cfd703a5e17fe6faebec4954a840272348739975b4d8bd88c",
+   "kimi-k3.1-pro": "https://antscan.co/verification-service/60756~0x14065cba94cb3edb3d76a1dd11480153bb819bfbfb6b3de69fa5afcf0524164a",
+   "minimax-m3": "https://antscan.co/verification-service/60756~0x21ceb086e0a22acb0aa48340861f31b13d6269b4e538e6b455e24434ba18c88e"
+  },
+  "lastSeen": 1794760147606,
+  "health": {
+   "failureStreak": 0,
+   "coolingDownUntil": null
+  },
+  "latencyMsP50": null,
+  "firstTokenMsP50": null,
+  "tokensPerSecondP50": null,
+  "requests24h": 0
+ },
+ {
+  "peerId": "412282c48584073c5aee6a79945f105a7777e194",
+  "displayName": "Banter",
+  "services": [
+   {
+    "provider": "openai",
+    "service": "gpt-6-luna",
+    "inputUsdPerMillion": 0.0695,
+    "outputUsdPerMillion": 0.348,
+    "cachedInputUsdPerMillion": 0.00695,
+    "categories": [
+     "chat"
+    ],
+    "apiProtocols": [
+     "openai-chat-completions"
+    ],
+    "paid": true,
+    "freeTier": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759967066,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    }
+   }
+  ],
+  "trustScore": 79.13854545543074,
+  "reputationScore": 79.13854545543074,
+  "verified": true,
+  "verificationLinks": [
+   {
+    "kind": "domain",
+    "label": "antseedmarkets.com",
+    "href": "https://antseedmarkets.com"
+   },
+   {
+    "kind": "github",
+    "label": "@duggy-ai/banter",
+    "href": "https://github.com/duggy-ai/banter"
+   }
+  ],
+  "tee": true,
+  "teeScope": "seller-node",
+  "teeUpstreams": [
+   "api.antseedmarkets.com",
+   "api.surplusintelligence.ai"
+  ],
+  "stakeAnts": "101536.35629111958",
+  "agentId": 47218,
+  "freeTier": null,
+  "usageShareBps": 257,
+  "washFlagged": false,
+  "trustBreakdown": {
+   "usage": 17.18905071489458,
+   "power": 47.131721444112074,
+   "identity": {
+    "score": 0.0990045562834762,
+    "kind": "domain"
+   },
+   "freeModels": 5,
+   "verification": {
+    "multiplierBps": 11400,
+    "sameCount": 9,
+    "diffCount": 1,
+    "change": 9.718768740140618
+   }
+  },
+  "diffServices": [
+   "minimax-m3"
+  ],
+  "sameServices": [
+   "claude-fable-5.1",
+   "claude-opus-5.5",
+   "claude-sonnet-5.5",
+   "gemini-4-argon",
+   "gpt-6-astra",
+   "gpt-6.1-sol",
+   "kimi-k3",
+   "qwen3.8-27b"
+  ],
+  "verificationUrls": {
+   "minimax-m3": "https://antscan.co/verification-service/47218~0x21ceb086e0a22acb0aa48340861f31b13d6269b4e538e6b455e24434ba18c88e",
+   "claude-fable-5.1": "https://antscan.co/verification-service/47218~0xb35f7f3e1358a478aea66437dcdbb1bccdec278c8024e1e7b0b734f3f9900d68",
+   "claude-opus-5.5": "https://antscan.co/verification-service/47218~0x402880900fb130dfc58962c8fc98181a3722a64f6e070086225b602d76c08c40",
+   "claude-sonnet-5.5": "https://antscan.co/verification-service/47218~0x0bc7b380e222ef661416caece4ad0ba76698442e5384b5e9d4830d7c2105d5c9",
+   "gemini-4-argon": "https://antscan.co/verification-service/47218~0x0ef1da3a09b0dc93c8ffbd91f0d6d94f6f0d699b81fdda97f201c0011de70689",
+   "gpt-6-astra": "https://antscan.co/verification-service/47218~0xbb0866ea2c1fda8ac73deefbdc2c4b2aa2fc8a70096ecfe6da5a6178cbff97ea",
+   "gpt-6.1-sol": "https://antscan.co/verification-service/47218~0x77fa6dbc80075e8da6471bdc8e17974ef31532c699dbf7e8a41436f586878130",
+   "kimi-k3": "https://antscan.co/verification-service/47218~0x1794d828b03ce15cfd703a5e17fe6faebec4954a840272348739975b4d8bd88c",
+   "qwen3.8-27b": "https://antscan.co/verification-service/47218~0x5aaefdc689aaaa2a26835ace56fedb7cd8ff959f6425621f73f2e75f0210602e"
+  },
+  "lastSeen": 1794760149560,
+  "health": {
+   "failureStreak": 0,
+   "coolingDownUntil": null
+  },
+  "latencyMsP50": null,
+  "firstTokenMsP50": null,
+  "tokensPerSecondP50": null,
+  "requests24h": 0
+ },
+ {
+  "peerId": "d19ffae0e85b5230422019926b2f37ec0f1f41f3",
+  "displayName": "Super Seeder",
+  "services": [
+   {
+    "provider": "openai",
+    "service": "gpt-6-luna",
+    "inputUsdPerMillion": 0.125001,
+    "outputUsdPerMillion": 0.625011,
+    "cachedInputUsdPerMillion": 0.012499,
+    "categories": [
+     "chat",
+     "reasoning",
+     "vision",
+     "multimodal",
+     "tools",
+     "long-context",
+     "cheap"
+    ],
+    "apiProtocols": [
+     "openai-chat-completions"
+    ],
+    "paid": true,
+    "freeTier": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759856605,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    }
+   },
+   {
+    "provider": "openai",
+    "service": "grok-4-7",
+    "inputUsdPerMillion": 2.837553,
+    "outputUsdPerMillion": 8.500159,
+    "cachedInputUsdPerMillion": 0.712512,
+    "categories": [
+     "chat",
+     "coding",
+     "reasoning",
+     "vision",
+     "multimodal",
+     "tools",
+     "long-context"
+    ],
+    "apiProtocols": [
+     "openai-chat-completions"
+    ],
+    "paid": true,
+    "freeTier": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759856643,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "performance": {
+     "requests": 1,
+     "successRate": 1,
+     "firstTokenMsP50": null,
+     "firstTokenMsP90": null,
+     "tokensPerSecondP50": null
+    }
+   },
+   {
+    "provider": "openai",
+    "service": "grok-4.7",
+    "inputUsdPerMillion": 2.837553,
+    "outputUsdPerMillion": 8.500159,
+    "cachedInputUsdPerMillion": 0.712512,
+    "categories": [
+     "chat",
+     "coding",
+     "reasoning",
+     "vision",
+     "multimodal",
+     "tools",
+     "long-context"
+    ],
+    "apiProtocols": [
+     "openai-chat-completions"
+    ],
+    "paid": true,
+    "freeTier": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759856644,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "modelCheck": {
+     "verdict": "same",
+     "auditUrl": "https://antscan.co/verification-service/53509~0x8a9336b8ab23c98f75fa11cd315e06d8b5b9964332d9c843baaa258b26a559a2"
+    }
+   }
+  ],
+  "trustScore": 88.55644830038148,
+  "reputationScore": 88.55644830038148,
+  "verified": true,
+  "verificationLinks": [
+   {
+    "kind": "domain",
+    "label": "super-seeder.com",
+    "href": "https://super-seeder.com"
+   },
+   {
+    "kind": "github",
+    "label": "@super-seeder/super-seeder",
+    "href": "https://github.com/super-seeder/super-seeder"
+   }
+  ],
+  "tee": false,
+  "teeScope": null,
+  "stakeAnts": "161896.41837650392",
+  "agentId": 53509,
+  "freeTier": {
+   "base": {
+    "maxRequestsPerAddress": 200,
+    "maxRequestsPerIp": 400,
+    "windowMs": 86400000
+   },
+   "stakeTiers": [
+    {
+     "minPower": 260000,
+     "multiplier": 5
+    },
+    {
+     "minPower": 1300000,
+     "multiplier": 10
+    },
+    {
+     "minPower": 5200000,
+     "multiplier": 25
+    },
+    {
+     "minPower": 13000000,
+     "multiplier": 50
+    }
+   ]
+  },
+  "usageShareBps": 308,
+  "washFlagged": false,
+  "trustBreakdown": {
+   "usage": 17.961467659369774,
+   "power": 51.86543509878003,
+   "identity": {
+    "score": 0.22093478454635335,
+    "kind": "domain"
+   },
+   "freeModels": 5,
+   "verification": {
+    "multiplierBps": 11800,
+    "sameCount": 9,
+    "diffCount": 0,
+    "change": 13.508610757685318
+   }
+  },
+  "sameServices": [
+   "claude-fable-5.1",
+   "claude-sonnet-5.5",
+   "gemini-3-1-pro-preview",
+   "gemini-4-argon",
+   "glm-5.3",
+   "gpt-6.1-sol",
+   "grok-4.7",
+   "kimi-k3",
+   "kimi-k3.1-pro"
+  ],
+  "verificationUrls": {
+   "claude-fable-5.1": "https://antscan.co/verification-service/53509~0xb35f7f3e1358a478aea66437dcdbb1bccdec278c8024e1e7b0b734f3f9900d68",
+   "claude-sonnet-5.5": "https://antscan.co/verification-service/53509~0x0bc7b380e222ef661416caece4ad0ba76698442e5384b5e9d4830d7c2105d5c9",
+   "gemini-3-1-pro-preview": "https://antscan.co/verification-service/53509~0xc5972c348465c2a9e171f1e285834973d0c5ff52c5a9195d122320871da02037",
+   "gemini-4-argon": "https://antscan.co/verification-service/53509~0x0ef1da3a09b0dc93c8ffbd91f0d6d94f6f0d699b81fdda97f201c0011de70689",
+   "glm-5.3": "https://antscan.co/verification-service/53509~0x1125a5e4cc6d2592878c0498f3e69b293bc43718b5b92377c10c1f3defb7d1ba",
+   "gpt-6.1-sol": "https://antscan.co/verification-service/53509~0x77fa6dbc80075e8da6471bdc8e17974ef31532c699dbf7e8a41436f586878130",
+   "grok-4.7": "https://antscan.co/verification-service/53509~0x8a9336b8ab23c98f75fa11cd315e06d8b5b9964332d9c843baaa258b26a559a2",
+   "kimi-k3": "https://antscan.co/verification-service/53509~0x1794d828b03ce15cfd703a5e17fe6faebec4954a840272348739975b4d8bd88c",
+   "kimi-k3.1-pro": "https://antscan.co/verification-service/53509~0x14065cba94cb3edb3d76a1dd11480153bb819bfbfb6b3de69fa5afcf0524164a"
+  },
+  "lastSeen": 1794760148353,
+  "health": {
+   "failureStreak": 0,
+   "coolingDownUntil": null
+  },
+  "latencyMsP50": 4069,
+  "firstTokenMsP50": 2071,
+  "tokensPerSecondP50": 90,
+  "requests24h": 636
+ }
+]

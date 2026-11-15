@@ -1,0 +1,879 @@
+[
+ {
+  "id": "gpt-6-luna",
+  "name": "GPT 6 Luna",
+  "aliases": [
+   "gpt6luna",
+   "openai-gpt-6-luna"
+  ],
+  "type": "text",
+  "tags": [],
+  "contextLength": 1050000,
+  "capabilities": [
+   "toolUse",
+   "reasoning",
+   "structuredOutput",
+   "vision"
+  ],
+  "sellers": 21,
+  "inputUsdPerMillion": {
+   "min": 0.004,
+   "max": 0.125001
+  },
+  "outputUsdPerMillion": {
+   "min": 0.025,
+   "max": 0.625011
+  },
+  "free": false,
+  "freeForStakers": false,
+  "freeAllowance": true,
+  "teeSellers": 3,
+  "fullTeeSellers": 1,
+  "verifiedSellers": 19,
+  "offers": [
+   {
+    "peerId": "0340ebb444422b880383423177fb9681ed3a90f0",
+    "displayName": "STEYG",
+    "serviceId": "gpt-6-luna",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions"
+    ],
+    "inputUsdPerMillion": 0.004,
+    "outputUsdPerMillion": 0.025,
+    "cachedInputUsdPerMillion": 0.0004,
+    "usdPerImage": null,
+    "contextLength": 1000000,
+    "free": false,
+    "agentId": 1140269,
+    "freeTier": null,
+    "reputationScore": 0.4950773363197637,
+    "trustScore": 0.4950773363197637,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "steyg.one",
+      "href": "https://steyg.one"
+     },
+     {
+      "kind": "github",
+      "label": "@steygagency/antseed-verification",
+      "href": "https://github.com/steygagency/antseed-verification"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": 2348,
+    "firstTokenMsP50": null,
+    "tokensPerSecondP50": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759824914,
+     "source": "traffic",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "performance": {
+     "requests": 8,
+     "successRate": 1,
+     "firstTokenMsP50": null,
+     "firstTokenMsP90": null,
+     "tokensPerSecondP50": null
+    }
+   },
+   {
+    "peerId": "666e688780b9fdee5d2fe8ccafa666bb084c4666",
+    "displayName": "bartly.eth64.de",
+    "serviceId": "gpt-6-luna",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions"
+    ],
+    "inputUsdPerMillion": 0.005035485,
+    "outputUsdPerMillion": 0.02517606,
+    "cachedInputUsdPerMillion": 0.000503549,
+    "usdPerImage": null,
+    "contextLength": null,
+    "free": false,
+    "agentId": 60756,
+    "freeTier": null,
+    "reputationScore": 6.374066975791476,
+    "trustScore": 6.374066975791476,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "bartly.eth64.de",
+      "href": "https://bartly.eth64.de"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": null,
+    "firstTokenMsP50": null,
+    "tokensPerSecondP50": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794758597229,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    }
+   },
+   {
+    "peerId": "983e9de990b9ac8d36d373db5d0b49a4d7f7d826",
+    "displayName": "GesundAI",
+    "serviceId": "gpt-6-luna",
+    "provider": "openai-responses",
+    "protocols": [
+     "openai-responses"
+    ],
+    "inputUsdPerMillion": 0.08,
+    "outputUsdPerMillion": 0.15,
+    "cachedInputUsdPerMillion": 0.008,
+    "usdPerImage": null,
+    "contextLength": null,
+    "free": false,
+    "agentId": 87124,
+    "freeTier": null,
+    "reputationScore": 98.42456631058533,
+    "trustScore": 98.42456631058533,
+    "verified": false,
+    "verificationLinks": [],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": 9903,
+    "firstTokenMsP50": 2839,
+    "tokensPerSecondP50": 115.3,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794760143632,
+     "source": "traffic",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "performance": {
+     "requests": 147,
+     "successRate": 1,
+     "firstTokenMsP50": 1614,
+     "firstTokenMsP90": 6130,
+     "tokensPerSecondP50": 57
+    }
+   },
+   {
+    "peerId": "948a72bfce653e3e4d8bafa9b30cf73e5fa1a000",
+    "displayName": "LLMart",
+    "serviceId": "openai/gpt-6-luna",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions",
+     "openai-responses",
+     "anthropic-messages"
+    ],
+    "inputUsdPerMillion": 0.059999999999,
+    "outputUsdPerMillion": 0.309999999999,
+    "cachedInputUsdPerMillion": 0.018,
+    "usdPerImage": null,
+    "contextLength": null,
+    "free": false,
+    "agentId": 156017,
+    "freeTier": null,
+    "reputationScore": 0,
+    "trustScore": 0,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "seller.lllmify.online",
+      "href": "https://seller.lllmify.online"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": null,
+    "firstTokenMsP50": null,
+    "tokensPerSecondP50": null
+   },
+   {
+    "peerId": "73b4c9335fa239f9c6df3d28d5bf5d3cdf4de736",
+    "displayName": "Apex Ant",
+    "serviceId": "gpt-6-luna",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions"
+    ],
+    "inputUsdPerMillion": 0.06,
+    "outputUsdPerMillion": 0.31,
+    "cachedInputUsdPerMillion": 0.006,
+    "usdPerImage": null,
+    "contextLength": 1050000,
+    "free": false,
+    "agentId": 52894,
+    "freeTier": null,
+    "reputationScore": 83.50287969117717,
+    "trustScore": 83.50287969117717,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "apex-ant.net",
+      "href": "https://apex-ant.net"
+     },
+     {
+      "kind": "github",
+      "label": "@ant-apex/apex-ant-verification",
+      "href": "https://github.com/ant-apex/apex-ant-verification"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": 2661,
+    "firstTokenMsP50": null,
+    "tokensPerSecondP50": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759659748,
+     "source": "traffic",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "performance": {
+     "requests": 19,
+     "successRate": 1,
+     "firstTokenMsP50": 4605,
+     "firstTokenMsP90": 10859,
+     "tokensPerSecondP50": 19237
+    }
+   },
+   {
+    "peerId": "412282c48584073c5aee6a79945f105a7777e194",
+    "displayName": "Banter",
+    "serviceId": "gpt-6-luna",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions"
+    ],
+    "inputUsdPerMillion": 0.0695,
+    "outputUsdPerMillion": 0.348,
+    "cachedInputUsdPerMillion": 0.00695,
+    "usdPerImage": null,
+    "contextLength": null,
+    "free": false,
+    "agentId": 47218,
+    "freeTier": null,
+    "reputationScore": 79.13854545543074,
+    "trustScore": 79.13854545543074,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "antseedmarkets.com",
+      "href": "https://antseedmarkets.com"
+     },
+     {
+      "kind": "github",
+      "label": "@duggy-ai/banter",
+      "href": "https://github.com/duggy-ai/banter"
+     }
+    ],
+    "tee": true,
+    "teeScope": "seller-node",
+    "latencyMsP50": null,
+    "firstTokenMsP50": null,
+    "tokensPerSecondP50": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759967066,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    }
+   },
+   {
+    "peerId": "d19ffae0e85b5230422019926b2f37ec0f1f41f3",
+    "displayName": "Super Seeder",
+    "serviceId": "gpt-6-luna",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions"
+    ],
+    "inputUsdPerMillion": 0.125001,
+    "outputUsdPerMillion": 0.625011,
+    "cachedInputUsdPerMillion": 0.012499,
+    "usdPerImage": null,
+    "contextLength": 1050000,
+    "free": false,
+    "agentId": 53509,
+    "freeTier": null,
+    "reputationScore": 88.55644830038148,
+    "trustScore": 88.55644830038148,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "super-seeder.com",
+      "href": "https://super-seeder.com"
+     },
+     {
+      "kind": "github",
+      "label": "@super-seeder/super-seeder",
+      "href": "https://github.com/super-seeder/super-seeder"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": 4069,
+    "firstTokenMsP50": 2071,
+    "tokensPerSecondP50": 90,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759856605,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    }
+   }
+  ]
+ },
+ {
+  "id": "grok-4-6",
+  "name": "Grok 4 6",
+  "aliases": [
+   "grok-4.6",
+   "grok46"
+  ],
+  "type": "text",
+  "tags": [
+   "Coding",
+   "Reasoning",
+   "Vision"
+  ],
+  "contextLength": 500000,
+  "capabilities": [
+   "toolUse",
+   "reasoning",
+   "structuredOutput",
+   "vision"
+  ],
+  "sellers": 9,
+  "inputUsdPerMillion": {
+   "min": 0.760199999999,
+   "max": 3.798229167
+  },
+  "outputUsdPerMillion": {
+   "min": 2.280599999999,
+   "max": 11.394687502
+  },
+  "free": false,
+  "freeForStakers": false,
+  "freeAllowance": false,
+  "teeSellers": 0,
+  "fullTeeSellers": 0,
+  "verifiedSellers": 9,
+  "offers": [
+   {
+    "peerId": "948a72bfce653e3e4d8bafa9b30cf73e5fa1a000",
+    "displayName": "LLMart",
+    "serviceId": "x-ai/grok-4.6",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions",
+     "openai-responses",
+     "anthropic-messages"
+    ],
+    "inputUsdPerMillion": 0.760199999999,
+    "outputUsdPerMillion": 2.280599999999,
+    "cachedInputUsdPerMillion": 0.178450704225,
+    "usdPerImage": null,
+    "contextLength": null,
+    "free": false,
+    "agentId": 156017,
+    "freeTier": null,
+    "reputationScore": 0,
+    "trustScore": 0,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "seller.lllmify.online",
+      "href": "https://seller.lllmify.online"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": null,
+    "firstTokenMsP50": null,
+    "tokensPerSecondP50": null
+   },
+   {
+    "peerId": "666e688780b9fdee5d2fe8ccafa666bb084c4666",
+    "displayName": "bartly.eth64.de",
+    "serviceId": "grok-4-6",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions"
+    ],
+    "inputUsdPerMillion": 0.7602,
+    "outputUsdPerMillion": 2.2806,
+    "cachedInputUsdPerMillion": 0.190052175,
+    "usdPerImage": null,
+    "contextLength": null,
+    "free": false,
+    "agentId": 60756,
+    "freeTier": null,
+    "reputationScore": 6.374066975791476,
+    "trustScore": 6.374066975791476,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "bartly.eth64.de",
+      "href": "https://bartly.eth64.de"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": null,
+    "firstTokenMsP50": null,
+    "tokensPerSecondP50": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794758598312,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    }
+   },
+   {
+    "peerId": "73b4c9335fa239f9c6df3d28d5bf5d3cdf4de736",
+    "displayName": "Apex Ant",
+    "serviceId": "grok-4.6",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions"
+    ],
+    "inputUsdPerMillion": 1.47,
+    "outputUsdPerMillion": 4.41,
+    "cachedInputUsdPerMillion": 0.37,
+    "usdPerImage": null,
+    "contextLength": 500000,
+    "free": false,
+    "agentId": 52894,
+    "freeTier": null,
+    "reputationScore": 83.50287969117717,
+    "trustScore": 83.50287969117717,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "apex-ant.net",
+      "href": "https://apex-ant.net"
+     },
+     {
+      "kind": "github",
+      "label": "@ant-apex/apex-ant-verification",
+      "href": "https://github.com/ant-apex/apex-ant-verification"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": 2661,
+    "firstTokenMsP50": null,
+    "tokensPerSecondP50": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759198989,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    }
+   },
+   {
+    "peerId": "b269dc2c211dfcd926222b4b2b82a731d22fb1a6",
+    "displayName": "Edith AI",
+    "serviceId": "grok-4.6",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions"
+    ],
+    "inputUsdPerMillion": 1.5351,
+    "outputUsdPerMillion": 4.5986,
+    "cachedInputUsdPerMillion": 0.3854,
+    "usdPerImage": null,
+    "contextLength": null,
+    "free": false,
+    "agentId": 54037,
+    "freeTier": null,
+    "reputationScore": 0,
+    "trustScore": 0,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "goedith.pages.dev",
+      "href": "https://goedith.pages.dev"
+     },
+     {
+      "kind": "github",
+      "label": "@edithai-ux/antseed-verification",
+      "href": "https://github.com/edithai-ux/antseed-verification"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": null,
+    "firstTokenMsP50": null,
+    "tokensPerSecondP50": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759831906,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    }
+   },
+   {
+    "peerId": "d19ffae0e85b5230422019926b2f37ec0f1f41f3",
+    "displayName": "Super Seeder",
+    "serviceId": "grok-4-6",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions"
+    ],
+    "inputUsdPerMillion": 2.837553,
+    "outputUsdPerMillion": 8.500159,
+    "cachedInputUsdPerMillion": 0.712512,
+    "usdPerImage": null,
+    "contextLength": 500000,
+    "free": false,
+    "agentId": 53509,
+    "freeTier": null,
+    "reputationScore": 88.55644830038148,
+    "trustScore": 88.55644830038148,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "super-seeder.com",
+      "href": "https://super-seeder.com"
+     },
+     {
+      "kind": "github",
+      "label": "@super-seeder/super-seeder",
+      "href": "https://github.com/super-seeder/super-seeder"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": 4069,
+    "firstTokenMsP50": 2071,
+    "tokensPerSecondP50": 90,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759856646,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    }
+   }
+  ]
+ },
+ {
+  "id": "grok-4-7",
+  "name": "Grok 4 7",
+  "aliases": [
+   "grok-4.7",
+   "grok47"
+  ],
+  "type": "text",
+  "tags": [],
+  "contextLength": 500000,
+  "capabilities": [
+   "toolUse",
+   "reasoning",
+   "structuredOutput",
+   "vision"
+  ],
+  "sellers": 9,
+  "inputUsdPerMillion": {
+   "min": 0.054341018,
+   "max": 2.837553
+  },
+  "outputUsdPerMillion": {
+   "min": 0.163023052,
+   "max": 8.70375
+  },
+  "free": false,
+  "freeForStakers": false,
+  "freeAllowance": false,
+  "teeSellers": 0,
+  "fullTeeSellers": 0,
+  "verifiedSellers": 9,
+  "offers": [
+   {
+    "peerId": "666e688780b9fdee5d2fe8ccafa666bb084c4666",
+    "displayName": "bartly.eth64.de",
+    "serviceId": "grok-4-7",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions"
+    ],
+    "inputUsdPerMillion": 0.054341018,
+    "outputUsdPerMillion": 0.163023052,
+    "cachedInputUsdPerMillion": 0.01358539,
+    "usdPerImage": null,
+    "contextLength": null,
+    "free": false,
+    "agentId": 60756,
+    "freeTier": null,
+    "reputationScore": 6.374066975791476,
+    "trustScore": 6.374066975791476,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "bartly.eth64.de",
+      "href": "https://bartly.eth64.de"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": null,
+    "firstTokenMsP50": null,
+    "tokensPerSecondP50": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794758598656,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "modelCheck": {
+     "verdict": "same",
+     "auditUrl": "https://antscan.co/verification-service/60756~0x60982ecb41215d97930e1312372aa3389965a4785d7f43d72e38f86c67c3d9b0"
+    }
+   },
+   {
+    "peerId": "948a72bfce653e3e4d8bafa9b30cf73e5fa1a000",
+    "displayName": "LLMart",
+    "serviceId": "x-ai/grok-4.7",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions",
+     "openai-responses",
+     "anthropic-messages"
+    ],
+    "inputUsdPerMillion": 1.006654999999,
+    "outputUsdPerMillion": 3.006881999999,
+    "cachedInputUsdPerMillion": 0.223701111111,
+    "usdPerImage": null,
+    "contextLength": null,
+    "free": false,
+    "agentId": 156017,
+    "freeTier": null,
+    "reputationScore": 0,
+    "trustScore": 0,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "seller.lllmify.online",
+      "href": "https://seller.lllmify.online"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": null,
+    "firstTokenMsP50": null,
+    "tokensPerSecondP50": null,
+    "modelCheck": {
+     "verdict": "same",
+     "auditUrl": "https://antscan.co/verification-service/156017~0x80020b0a7f47131e5e9747869968345c3f373ae5b6fdceb591942f3493f417f3"
+    }
+   },
+   {
+    "peerId": "b269dc2c211dfcd926222b4b2b82a731d22fb1a6",
+    "displayName": "Edith AI",
+    "serviceId": "grok-4.7",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions"
+    ],
+    "inputUsdPerMillion": 1.5351,
+    "outputUsdPerMillion": 4.5986,
+    "cachedInputUsdPerMillion": 0.3854,
+    "usdPerImage": null,
+    "contextLength": null,
+    "free": false,
+    "agentId": 54037,
+    "freeTier": null,
+    "reputationScore": 0,
+    "trustScore": 0,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "goedith.pages.dev",
+      "href": "https://goedith.pages.dev"
+     },
+     {
+      "kind": "github",
+      "label": "@edithai-ux/antseed-verification",
+      "href": "https://github.com/edithai-ux/antseed-verification"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": null,
+    "firstTokenMsP50": null,
+    "tokensPerSecondP50": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759833196,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "modelCheck": {
+     "verdict": "diff",
+     "auditUrl": "https://antscan.co/verification-service/54037~0x8a9336b8ab23c98f75fa11cd315e06d8b5b9964332d9c843baaa258b26a559a2"
+    }
+   },
+   {
+    "peerId": "73b4c9335fa239f9c6df3d28d5bf5d3cdf4de736",
+    "displayName": "Apex Ant",
+    "serviceId": "grok-4.7",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions"
+    ],
+    "inputUsdPerMillion": 1.95,
+    "outputUsdPerMillion": 5.86,
+    "cachedInputUsdPerMillion": 0.49,
+    "usdPerImage": null,
+    "contextLength": 500000,
+    "free": false,
+    "agentId": 52894,
+    "freeTier": null,
+    "reputationScore": 83.50287969117717,
+    "trustScore": 83.50287969117717,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "apex-ant.net",
+      "href": "https://apex-ant.net"
+     },
+     {
+      "kind": "github",
+      "label": "@ant-apex/apex-ant-verification",
+      "href": "https://github.com/ant-apex/apex-ant-verification"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": 2661,
+    "firstTokenMsP50": null,
+    "tokensPerSecondP50": null,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759790581,
+     "source": "traffic",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "performance": {
+     "requests": 1,
+     "successRate": 1,
+     "firstTokenMsP50": null,
+     "firstTokenMsP90": null,
+     "tokensPerSecondP50": null
+    },
+    "modelCheck": {
+     "verdict": "same",
+     "auditUrl": "https://antscan.co/verification-service/52894~0x8a9336b8ab23c98f75fa11cd315e06d8b5b9964332d9c843baaa258b26a559a2"
+    }
+   },
+   {
+    "peerId": "d19ffae0e85b5230422019926b2f37ec0f1f41f3",
+    "displayName": "Super Seeder",
+    "serviceId": "grok-4-7",
+    "provider": "openai",
+    "protocols": [
+     "openai-chat-completions"
+    ],
+    "inputUsdPerMillion": 2.837553,
+    "outputUsdPerMillion": 8.500159,
+    "cachedInputUsdPerMillion": 0.712512,
+    "usdPerImage": null,
+    "contextLength": 500000,
+    "free": false,
+    "agentId": 53509,
+    "freeTier": null,
+    "reputationScore": 88.55644830038148,
+    "trustScore": 88.55644830038148,
+    "verified": true,
+    "verificationLinks": [
+     {
+      "kind": "domain",
+      "label": "super-seeder.com",
+      "href": "https://super-seeder.com"
+     },
+     {
+      "kind": "github",
+      "label": "@super-seeder/super-seeder",
+      "href": "https://github.com/super-seeder/super-seeder"
+     }
+    ],
+    "tee": false,
+    "teeScope": null,
+    "latencyMsP50": 4069,
+    "firstTokenMsP50": 2071,
+    "tokensPerSecondP50": 90,
+    "health": {
+     "status": "healthy",
+     "checkedAt": 1794759856643,
+     "source": "probe",
+     "failingSince": null,
+     "consecutiveFailures": null,
+     "reason": null,
+     "httpStatus": null
+    },
+    "performance": {
+     "requests": 1,
+     "successRate": 1,
+     "firstTokenMsP50": null,
+     "firstTokenMsP90": null,
+     "tokensPerSecondP50": null
+    }
+   }
+  ]
+ }
+]
